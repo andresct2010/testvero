@@ -13,6 +13,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.0.0
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "india-covid-stats"
-          heroku_email: "cheakymickey@gamail.com"
+          heroku_app_name: "pruebacovidtest"
+          heroku_email: "landres_7@hotmail.com"
           usedocker: true
